@@ -1,0 +1,133 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spartan:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+
+* {box-sizing: border-box;
+    
+}
+
+.withoutbackground{ 
+    
+    width: 500px; 
+    min-height: 300px;
+}
+.big-box{
+    display: flex;   
+    margin-top: -50px;
+}
+@media(max-width:768px) {
+    
+.big-box{
+    display: flex;   
+    flex-direction: column;
+}
+}
+.upper{
+    display: flex;   
+    justify-content: space-around;
+    margin-bottom: 20vh;
+}
+@media(max-width:768px) {
+    
+    .upper{
+        display: flex;   
+        flex-direction: column;
+    }
+    }
+.box{
+    background-color:  hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    font-family: 'Spartan', sans-serif;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin: 50px 10px;
+
+}
+
+
+.stars{
+    
+    width: 420px;
+    min-height: 300px;
+    font-size: 15px;
+    font-family: 'Spartan',sans-serif;
+    margin-top: 25px;
+    
+}
+.bigText{
+    color: hsl(300, 43%, 22%);
+    font-size: 55px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+
+}
+.smallText{
+    color:hsl(303, 10%, 53%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+}
+.img{
+    border-radius: 50px;
+    width: 52px;
+    height: auto;
+    padding: 7px;
+    float: left;
+    margin-top: -11px;
+}
+
+.nameOfBuyer{
+
+margin-left: 40px;
+font-size: 13px;
+margin-top: 30px;
+
+
+
+
+}
+.buyer{
+    font-size: 13px;
+    margin-top: -8px;
+    color: hsl(333, 80%, 67%);
+}
+.para{
+    margin-left: 44px;
+    margin-right: 15px;
+    margin-top: 50px;
+    
+
+}
+
+.starPara{
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 510;
+    font-size: 15px;
+    min-height: 70px;
+    text-align: center;
+    margin-top: 20px; 
+    width: 460px;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+#s2{
+    transform: translateX(20px);
+}
+#s3{
+    transform: translateX(40px);
+}
+
+
+
+
+#box2{
+    transform: translateY(50px);
+}
+
+#box3{
+    transform: translateY(70px);
+}
